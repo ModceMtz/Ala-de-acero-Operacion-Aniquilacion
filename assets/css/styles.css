@@ -6,8 +6,6 @@ body {
 
 canvas {
     border: 2px solid cyan;
-    background: url("../img/fondo.jpg");
-    background-size: cover;
     cursor: crosshair;
 }
 
@@ -19,7 +17,7 @@ canvas {
 
     background:
         linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
-        url("../img/Menu.png");
+        url("../img/menu/menu.png");
 
     background-size: cover;
     background-position: center;

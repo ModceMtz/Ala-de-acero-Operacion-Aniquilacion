@@ -11,7 +11,7 @@ canvas.height = 500;
 // MENU Y SKINS
 // ===============================
 let gameStarted = false;
-let selectedSkin = "assets/img/kin1.png";
+let selectedSkin = "assets/img/skins/skin1";
 
 const menu = document.getElementById("menu");
 const startBtn = document.getElementById("startBtn");
@@ -39,24 +39,24 @@ startBtn.addEventListener("click", () => {
 // IMÁGENES
 // ===============================
 const enemy1Img = new Image();
-enemy1Img.src = "assets/img/enemigo1.png";
+enemy1Img.src = "assets/img/enemigos/enemigo1.png";
 
 const enemy2Img = new Image();
-enemy2Img.src = "assets/img/enemigo2.png";
+enemy2Img.src = "assets/img/enemigos/enemigo2.png";
 
 const enemy3Img = new Image();
-enemy3Img.src = "assets/img/enemigo3.png";
+enemy3Img.src = "assets/img/enemigos/enemigo3.png";
 
 // ===============================
 // FONDOS (ESCENARIOS)
 // ===============================
 const backgrounds = [
-    "assets/img/Paisaje1.png",
-    "assets/img/Paisaje2.png",
-    "assets/img/Paisaje3.png",
-    "assets/img/Paisaje4.png",
-    "assets/img/Paisaje5.png",
-    "assets/img/Paisaje6.png"
+    "assets/img/paisajes/paisaje1.png",
+    "assets/img/paisajes/paisaje2.png",
+    "assets/img/paisajes/paisaje3.png",
+    "assets/img/paisajes/paisaje4.png",
+    "assets/img/paisajes/paisaje5.png",
+    "assets/img/paisajes/paisaje6.png"
 ];
 
 const backgroundImage = new Image();
@@ -471,14 +471,7 @@ function update() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // 🔥 FONDO
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // 🔥 FONDO
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-
-    // 🔥 CAPA OSCURA (OPACIDAD)
-    ctx.fillStyle = "rgba(0, 0, 0, 0.1)"; // ← ajusta aquí
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     if (gameStarted) {
         drawPlayer();
