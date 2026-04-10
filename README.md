@@ -1,111 +1,120 @@
 # ✈️ Ala de Acero: Operación Aniquilación
 
-## 📌 Descripción del proyecto
-"Ala de Acero: Operación Aniquilación" es un videojuego desarrollado utilizando la API Canvas de HTML5 y JavaScript, en el cual el jugador controla un avión de combate que debe enfrentarse a múltiples amenazas como aviones enemigos, bases antiaéreas y buques de guerra.
+## 🎮 Descripción
 
-El objetivo principal es sobrevivir el mayor tiempo posible mientras se destruyen enemigos y se obtiene la mayor puntuación.
+**Ala de Acero: Operación Aniquilación** es un juego tipo arcade desarrollado con **HTML, CSS y JavaScript**, donde controlas un avión de combate y debes sobrevivir a oleadas de enemigos mientras avanzas por diferentes niveles.
 
----
-
-## 🎯 Objetivo
-Desarrollar un videojuego interactivo en 2D que:
-- Utilice la API Canvas
-- Implemente movimiento y animación de objetos
-- Incluya interacción con el usuario mediante el mouse
-- Maneje colisiones y eliminación de objetos
-- Integre un sistema de puntuación y dificultad progresiva
+Enfréntate a cazas, helicópteros y enemigos kamikaze en escenarios dinámicos, con sistema de puntuación, vida y selección de skins.
 
 ---
 
-## 🧠 Justificación
-Este proyecto permite aplicar conocimientos de programación en JavaScript, específicamente en:
-- Manipulación del DOM
-- Uso de la API Canvas para gráficos 2D
-- Programación orientada a eventos
-- Lógica de videojuegos (colisiones, físicas básicas, generación aleatoria)
+## 🚀 Características principales
 
-Además, fortalece habilidades en diseño de interfaces y experiencia de usuario.
+* 🎯 Sistema de **10 niveles progresivos**
+* ✈️ **Selección de skins** para el avión
+* 💥 **3 tipos de enemigos**:
 
----
-
-## ⚙️ Funcionalidades principales
-- ✈️ Control del avión mediante el mouse
-- 🔫 Disparo de proyectiles con click
-- 👾 Aparición aleatoria de enemigos
-- 🚢 Buques de guerra con mayor resistencia
-- 🪖 Bases antiaéreas que disparan automáticamente
-- 💥 Sistema de colisiones
-- 📈 Incremento de dificultad por nivel
-- 🧮 Sistema de puntuación (Score)
-- 💀 Fin del juego al perder toda la vida
+  * Kamikaze (persigue al jugador)
+  * Caza (lanza misiles)
+  * Helicóptero (dispara ráfagas)
+* ❤️ Sistema de **vida con barra dinámica**
+* 🌄 **Fondos aleatorios por nivel**
+* 🎮 Controles simples e intuitivos
 
 ---
 
-## 🕹️ Instrucciones de uso
-1. Mueve el mouse para controlar el avión
-2. Haz clic para disparar
-3. Evita los disparos enemigos
-4. Destruye:
-   - Aviones enemigos
-   - Bases antiaéreas
-   - Buques de guerra
-5. Sobrevive el mayor tiempo posible y consigue la mejor puntuación
+## 🕹️ Controles
+
+* 🖱️ **Mouse** → mover el avión
+* 🖱️ **Click** → disparar
 
 ---
 
-## 🧱 Estructura del proyecto
-Ala-de-acero-Operacion-Aniquilacion 
--assets 
---css 
----styles.css 
---img 
---js 
----main.js 
--index.html 
--readme.md
+## 🧠 Mecánicas del juego
+
+* Cada nivel aumenta la cantidad de enemigos
+* Los enemigos aparecen de forma progresiva y aleatoria
+* Cada tipo de enemigo tiene comportamiento distinto
+* El juego termina cuando la vida del jugador llega a 0
 
 ---
 
-## 🖥️ Tecnologías utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- Canvas API
-- Bootstrap
+## 🏆 Sistema de puntuación
+
+| Enemigo     | Puntos |
+| ----------- | ------ |
+| Kamikaze    | 20     |
+| Caza        | 15     |
+| Helicóptero | 10     |
 
 ---
 
-## 🚀 Ejecución del proyecto
-1. Descargar o clonar el repositorio
-2. Abrir el archivo `index.html` en un navegador web
-3. Jugar
+## 💥 Daño de enemigos
+
+| Enemigo     | Daño |
+| ----------- | ---- |
+| Kamikaze    | 25   |
+| Caza        | 15   |
+| Helicóptero | 5    |
 
 ---
 
-## 📊 Mecánicas del juego
-- Los enemigos aparecen de forma aleatoria
-- La velocidad y cantidad de enemigos aumenta con el puntaje
-- Cada tipo de enemigo otorga diferente cantidad de puntos:
-  - Avión enemigo: +10 puntos
-  - Base antiaérea: +20 puntos
-  - Buque de guerra: +30 puntos
+## 📁 Estructura del proyecto
+
+```
+Ala-de-acero-Operacion-Aniquilacion/
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── img/
+│   │   ├── skins/
+│   │   ├── enemigos/
+│   │   └── Paisajes/
+│   └── js/
+│       └── main.js
+│
+├── index.html
+└── README.md
+```
 
 ---
 
-## 🧑‍💻 Autor
-Agustin
+## 🌐 Cómo jugar
+
+1. Abre el archivo `index.html` en tu navegador
+2. Selecciona una skin
+3. Presiona **Iniciar juego**
+4. Sobrevive y consigue la mayor puntuación posible
 
 ---
 
-## 📅 Fecha
-2026
+## 🔗 Versión en línea
+
+```
+https://modcemtz.github.io/Ala-de-acero-Operacion-Aniquilacion/
+```
 
 ---
 
-## 📌 Notas adicionales
-Este videojuego fue desarrollado como parte de una actividad académica, cumpliendo con los requisitos establecidos, incluyendo:
-- Uso de Canvas
-- Interacción con el usuario
-- Elementos gráficos dinámicos
-- Interfaz con Bootstrap
-- Documentación del proyecto
+## 🛠️ Tecnologías utilizadas
+
+* HTML5 (Canvas)
+* CSS3
+* JavaScript (Vanilla)
+
+---
+
+## 📌 Autor
+
+Agustin Modce Granados Martinez.
+
+---
+
+## 🎉 Créditos
+
+M.C. Víctor Pinedo.
+Agustin Modce Granados Martinez.
+Instituto Tecnologico de Pachuca
+
+---

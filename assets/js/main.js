@@ -11,7 +11,7 @@ canvas.height = 500;
 // MENU Y SKINS
 // ===============================
 let gameStarted = false;
-let selectedSkin = "assets/img/skin1.png";
+let selectedSkin = "assets/img/kin1.png";
 
 const menu = document.getElementById("menu");
 const startBtn = document.getElementById("startBtn");
